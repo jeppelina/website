@@ -1,0 +1,16 @@
+.DS_Store
+**/.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+node_modules/
+Old readymag site/
+Paper info copied/
+SDS II/
+showcase/
+.Rproj.user/
+*.Rproj
+.Rhistory

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesper Lindmarker</title>
+    <meta name="description" content="Jesper Lindmarker — Quantitative researcher and lecturer in computational social science. PhD Candidate at Linköping University. Background in business, statistics, and causal inference.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon (simple SVG) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>J</text></svg>">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Jesper Lindmarker">
+    <meta property="og:description" content="Quantitative researcher and lecturer in computational social science at Linköping University.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.jesperlindmarker.com">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">JL</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#research">Research</a></li>
+                <li><a href="#papers">Papers</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Jesper<br>Lindmarker</h1>
+                <p class="hero-tagline">
+                    I research how people sort into partnerships and what that reveals about social boundaries. I also teach quantitative methods and have a background in running businesses.
+                </p>
+                <p class="hero-sub">
+                    PhD Candidate &amp; Lecturer at <a href="https://liu.se/en/organisation/liu/iei/ias" target="_blank" rel="noopener">Linköping University</a>, where I teach statistics and data science in the master's programme in Computational Social Science.
+                </p>
+                <div class="hero-cta">
+                    <a href="#research" class="btn btn-primary">Research</a>
+                    <a href="#teaching" class="btn btn-outline">Teaching</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/portrait.png" alt="Jesper Lindmarker" loading="eager">
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Research -->
+    <section class="section research" id="research">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Research</span>
+                <h2>Assortative mating <br><em>& ethnic boundaries</em></h2>
+            </div>
+
+            <div class="research-grid">
+                <div class="research-card" id="card-mating">
+                    <div class="research-card-number">01</div>
+                    <h3>Opportunity vs. preference</h3>
+                    <p>
+                        Observed partner choices reflect both <strong>opportunity</strong> — who you can meet, shaped by segregation, group size, proximity — and <strong>preference</strong> — who you choose, shaped by cultural affinity and social norms. My dissertation addresses this distinction using counterfactual methods that ask: what would we observe if ancestry or education didn't matter?
+                    </p>
+                    <p>
+                        A key finding: apparent integration (rising intermarriage) can mask stable or even strengthening preferences — an integration paradox.
+                    </p>
+                </div>
+
+                <div class="research-card" id="card-propinquity">
+                    <div class="research-card-number">02</div>
+                    <h3>Space & segregation</h3>
+                    <p>
+                        Partners tend to live near each other before they meet. This spatial dependence links the uneven distribution of social groups to patterns of assortative mating. I study how <strong>residential propinquity</strong> — measured at 100-meter resolution — mediates ethnic endogamy.
+                    </p>
+                    <p>
+                        It turns out that failing to account for where people live overstates ethnic boundaries by 20–40% for some groups. Segregation and preferences are deeply entangled.
+                    </p>
+                </div>
+
+                <div class="research-card" id="card-methods">
+                    <div class="research-card-number">03</div>
+                    <h3>Methods & data</h3>
+                    <p>
+                        I use <strong>Swedish population registers</strong> covering all residents — full-population data with geocoded addresses. My primary tools are conditional logit discrete choice models, two-sided matching simulations, and simulation-based decomposition methods.
+                    </p>
+                    <p>
+                        These approaches compare observed unions to counterfactual partner draws, separating structural constraints from preference-like residuals.
+                    </p>
+                </div>
+
+                <div class="research-visual">
+                    <img src="assets/images/couples.jpg" alt="Diverse couples" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Papers -->
+    <section class="section papers" id="papers">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Publications</span>
+                <h2>Papers</h2>
+            </div>
+
+            <div class="papers-list">
+
+                <article class="paper-item">
+                    <div class="paper-status">Published &middot; European Journal of Population, 2025</div>
+                    <h3>Cohabitation and Mortality Across the Life Course</h3>
+                    <p class="paper-subtitle">A longitudinal cohort study with Swedish register-based sibling comparisons</p>
+                    <p class="paper-authors">Jesper Lindmarker, Martin Kolk &amp; Sven Drefahl</p>
+                    <div class="paper-abstract">
+                        <p>
+                            Using Swedish register data for 2012–2017 covering 5.6 million individuals, this study investigates how cohabitation relates to mortality across the life course. Sibling fixed-effects models account for family-of-origin confounding. Cohabitation reduces mortality risk relative to being single, though the association is weaker than for marriage and varies by age and previous marital history.
+                        </p>
+                    </div>
+                    <div class="paper-links">
+                        <a href="https://doi.org/10.1007/s10680-024-09722-6" target="_blank" rel="noopener">Journal article &rarr;</a>
+                    </div>
+                    <button class="paper-toggle" aria-expanded="false">Read more</button>
+                </article>
+
+                <article class="paper-item">
+                    <div class="paper-status">Preprint &middot; SocArXiv</div>
+                    <h3>However Far Away? The Spatial Contingencies of Assortative Mating</h3>
+                    <p class="paper-subtitle">Propinquity and ethnic endogamy in Sweden, 1990–2017</p>
+                    <p class="paper-authors">Jesper Lindmarker &amp; Benjamin F. Jarvis</p>
+                    <div class="paper-abstract">
+                        <p>
+                            This study examines how the spatial segregation of ethnic groups contributes to patterns of ethnic endogamy. Conditional logit models applied to Swedish population registers compare observed unions to counterfactual draws from the available pool of singles. Proximity strongly predicts partnering, but ancestry assortativity matters too, particularly for non-Western groups. Mediation analysis shows that failing to account for propinquity overstates endogamy by 20–40 percent for these groups. Presented at PAA 2025 and INAS 2023.
+                        </p>
+                    </div>
+                    <div class="paper-links">
+                        <a href="https://doi.org/10.31235/osf.io/4tq8z_v1" target="_blank" rel="noopener">Preprint &rarr;</a>
+                    </div>
+                    <button class="paper-toggle" aria-expanded="false">Read more</button>
+                </article>
+
+                <article class="paper-item">
+                    <div class="paper-status">Working paper</div>
+                    <h3>2,500 Ethnic Boundaries in Sweden</h3>
+                    <p class="paper-subtitle">A simulation-based analysis of assortative mating using register data</p>
+                    <p class="paper-authors">Jesper Lindmarker &amp; Carl Nordlund</p>
+                    <div class="paper-abstract">
+                        <p>
+                            The first systematic mapping of ethnic assortative mating at the ancestry-group level in Sweden, analyzing 2,500 gender-specific pairings across 50 ancestry groups in unions formed between 1991 and 2022. A two-sided matching simulation accounts for opportunity structures. The results reveal seven clusters reflecting geographic and cultural proximity, with strongest endogamy among Horn of Africa and MENA groups and pronounced gender asymmetries.
+                        </p>
+                    </div>
+                    <button class="paper-toggle" aria-expanded="false">Read more</button>
+                </article>
+
+                <article class="paper-item">
+                    <div class="paper-status">Working paper</div>
+                    <h3>Three Decades of Ethnic Assortative Mating in Sweden</h3>
+                    <p class="paper-subtitle">Decomposing trends into structural change and assortativity dynamics</p>
+                    <p class="paper-authors">Jesper Lindmarker</p>
+                    <div class="paper-abstract">
+                        <p>
+                            Interethnic unions have risen in Sweden, but is this driven by changing preferences or simply by growing diversity? Using simulation-based decomposition of 30 years of register data, this paper shows that observed exogamy rises are largely driven by structural change — more diversity in the partner market — while net-of-opportunity endogamy preferences have remained stable or even strengthened for some groups.
+                        </p>
+                    </div>
+                    <button class="paper-toggle" aria-expanded="false">Read more</button>
+                </article>
+
+                <article class="paper-item">
+                    <div class="paper-status">In progress</div>
+                    <h3>Working Together, Living Together?</h3>
+                    <p class="paper-subtitle">Institutional co-membership, residential proximity, and educational assortative mating</p>
+                    <p class="paper-authors">Jesper Lindmarker</p>
+                    <div class="paper-abstract">
+                        <p>
+                            How much of educational homogamy reflects preferences versus opportunity? This study decomposes educational assortative mating into components attributable to residential proximity, shared workplaces, and shared universities. Proximity and institutional overlap together mediate 29–40% of educational homogamy among medium- and highly-educated pairs. Institutional effects follow a dose–response pattern: each additional year of overlap substantially increases union probability.
+                        </p>
+                    </div>
+                    <button class="paper-toggle" aria-expanded="false">Read more</button>
+                </article>
+
+            </div>
+
+            <div class="papers-note">
+                <h4>In the news</h4>
+                <p>Dagens Nyheter wrote about my research: <a href="https://www.dn.se/ekonomi/farre-par-traffas-pa-jobbet/" target="_blank" rel="noopener">"Färre par träffas på jobbet"</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional History -->
+    <section class="section history" id="history">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Background</span>
+                <h2>Background</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-date">2021 — present</div>
+                    <div class="timeline-content">
+                        <h3>PhD Candidate &amp; Lecturer</h3>
+                        <p class="timeline-org">Institute for Analytical Sociology, Linköping University</p>
+                        <p>Dissertation on assortative mating in Sweden — using discrete choice models, matching simulations, and full-population register data to study how opportunity structures and preferences jointly shape partner formation across ethnic and educational lines.</p>
+                        <p>Course responsible and main lecturer for <em>Statistics &amp; Data Science II</em> in the MSc programme in Computational Social Science. The course covers regression, causal inference, logistic models, and discrete choice analysis.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-date">2009 — 2022</div>
+                    <div class="timeline-content">
+                        <h3>The Castle Coworking</h3>
+                        <p class="timeline-org">Founder &amp; Manager, Stockholm</p>
+                        <p>Founded and managed two coworking spaces — first a church, then a castle. 1,500 sqm, 300 members, neighbours with the Royal Palace. One of Stockholm's first coworking spaces with the highest Google rating among similar spaces.</p>
+                        <p class="timeline-aside">We also <a href="https://fb.watch/q3f6LaIadZ/" target="_blank" rel="noopener">excelled at parties</a>.</p>
+                        <img src="assets/images/castle.png" alt="The Castle — coworking space in Stockholm" class="timeline-image" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-date">2012</div>
+                    <div class="timeline-content">
+                        <h3>The Cookbook Adventure</h3>
+                        <p class="timeline-org">Author</p>
+                        <p>Crowdfunded a journey by car from Stockholm to Ulan Bataar. The result: a cookbook published in 2014 with recipes and stories from 16 countries. <a href="https://drive.google.com/file/d/1i7DlyXJpO3xfhX_Sli482o7QZbn0A3IS/view?usp=sharing" target="_blank" rel="noopener">Read the digital copy</a>.</p>
+                        <img src="assets/images/cookbook.jpg" alt="Dish from the Cookbook Adventure" class="timeline-image" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-date">2010 — 2014</div>
+                    <div class="timeline-content">
+                        <h3>GreenCup</h3>
+                        <p class="timeline-org">CEO</p>
+                        <p>Sustainability project to reduce paper cup waste. More than 15,000 reusable cups in use across Linköping University and KTH campuses.</p>
+                        <img src="assets/images/greencup.jpg" alt="GreenCup — sustainable campus cup" class="timeline-image" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching -->
+    <section class="section teaching" id="teaching">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Teaching</span>
+                <h2>Statistics &amp; Data Science II</h2>
+                <p class="section-desc">I am course responsible and main lecturer for this course in the MSc programme in Computational Social Science at Linköping University. The course runs from OLS regression through to causal inference and discrete choice models. All lecture slides are available below.</p>
+            </div>
+
+            <div class="teaching-grid">
+                <a href="teaching/sds-ii/Lecture_0_Introduction.html" class="teaching-card" target="_blank" rel="noopener">
+                    <span class="teaching-card-week">Week 0</span>
+                    <h3>Course Introduction</h3>
+                    <p>Overview, goals, and what computational social science demands from statistical reasoning.</p>
+                </a>
+
+                <a href="teaching/sds-ii/Lecture_1.html" class="teaching-card" target="_blank" rel="noopener">
+                    <span class="teaching-card-week">Week 1</span>
+                    <h3>OLS Regression</h3>
+                    <p>The linear model — estimation, interpretation, and assumptions.</p>
+                </a>
+
+                <a href="teaching/sds-ii/Lecture_2.html" class="teaching-card" target="_blank" rel="noopener">
+                    <span class="teaching-card-week">Week 2</span>
+                    <h3>Multiple Regression</h3>
+                    <p>Adding predictors, partial effects, and the problem of control.</p>
+                </a>
+
+                <a href="teaching/sds-ii/Lecture_3.html" class="teaching-card" target="_blank" rel="noopener">
+                    <span class="teaching-card-week">Week 3</span>
+                    <h3>Interactions &amp; Transformations</h3>
+                    <p>Non-linearities, interaction terms, and log transformations.</p>
+                </a>
+
+                <a href="teaching/sds-ii/Lecture_4.html" class="teaching-card" target="_blank" rel="noopener">
+                    <span class="teaching-card-week">Week 4</span>
+                    <h3>Confounding &amp; DAGs</h3>
+                    <p>Omitted variable bias, directed acyclic graphs, and the logic of causal identification.</p>
+                </a>
+
+                <a href="teaching/sds-ii/Lecture_5.html" class="teaching-card" target="_blank" rel="noopener">
+                    <span class="teaching-card-week">Week 5</span>
+                    <h3>LPM &amp; Logistic Regression</h3>
+                    <p>Binary outcomes — the linear probability model and logit.</p>
+                </a>
+
+                <a href="teaching/sds-ii/Lecture_6.html" class="teaching-card" target="_blank" rel="noopener">
+                    <span class="teaching-card-week">Week 6</span>
+                    <h3>Multinomial &amp; Conditional Logit</h3>
+                    <p>Categorical choice, discrete choice models, and the connection to revealed preferences.</p>
+                </a>
+
+                <a href="teaching/sds-ii/Week_7_Causal_Approaches.html" class="teaching-card" target="_blank" rel="noopener">
+                    <span class="teaching-card-week">Week 7</span>
+                    <h3>Causal Approaches</h3>
+                    <p>Difference-in-differences, instrumental variables, regression discontinuity, and matching.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-inner">
+                <div class="contact-text">
+                    <span class="section-label">Contact</span>
+                    <h2>Let's talk</h2>
+                    <p>For research collaboration, questions, or anything else.</p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:jesper.lindmarker@gmail.com" class="contact-link">
+                        <span class="contact-link-label">Email</span>
+                        <span class="contact-link-value">jesper.lindmarker@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jesperlindmarker/" target="_blank" rel="noopener" class="contact-link">
+                        <span class="contact-link-label">LinkedIn</span>
+                        <span class="contact-link-value">Jesper Lindmarker</span>
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=12yuS3sAAAAJ" target="_blank" rel="noopener" class="contact-link">
+                        <span class="contact-link-label">Google Scholar</span>
+                        <span class="contact-link-value">Profile &rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p>&copy; 2026 Jesper Lindmarker</p>
+                <p class="footer-note">Built with curiosity. Hosted on GitHub Pages.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
